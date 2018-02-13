@@ -11,19 +11,40 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body>
-      <div class="header">
-        <img src="images\photoBanniere.png">
+    <header>
+
+      <div class="topHeader">
+        <img class="banniere" src="images\photoBanniere.png">
+        <ul class="favIcon">
+          <li><a href="#"><img class="buste" src="images/logoSilouhete.png"></a></li>
+          <li><a href="#"><img class="coeur" src="images/logoCoeur.png"></a></li>
+          <li><a href="#"><img class="pannier" src="images/logoPannierRose.png"></a></li>
+        </ul>
       </div>
-        <nav class="menu">
-            <ul>
-              <li><a href="#" title="item1">Accueil</a></li>
-              <li><a href="#" title="item2">Vetements bebe</a></li>
-              <li><a href="#" title="item3">Acessoires</a></li>
-              <li><a href="#" title="item4">Personnalisation</a></li>
-              <li><a href="#" title="item5">Qui Sommes Nous</a></li>
-            </ul>
-          <div class="clearBoth"></div>
-        </nav>
+
+      <nav class="menu">
+          <ul>
+            <li class="accueil"><a class="accueil" href="#" title="item1"><img class="house" src="images/logoHouseBlanc.png"></a></li>
+            <li><a href="#" title="item2">Vêtements bébé</a></li>
+            <li><a href="#" title="item3">Acessoires</a></li>
+            <li><a href="#" title="item4">Personnalisation</a></li>
+            <li><a href="#" title="item5">Qui Sommes Nous ?</a></li>
+          </ul>
+          <img class="loupe" src="images/logoLoupeBlanc.png" alt="">
+          <form method="post" action="traitement.php">
+            <p>
+              <input type="text" name="recherche" id="recherche" placeholder="Rechercher" size="15" maxlength="100" />
+            </p>
+          </form>
+        <div class="clearBoth"></div>
+      </nav>
+
+    </header>
+
+    <div class="test">
+
+    </div>
+  <!--
     <div id="container">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -53,5 +74,6 @@
       </div>
     </div>
     <script src="scripts/app.js"></script>
+  -->
   </body>
 </html>

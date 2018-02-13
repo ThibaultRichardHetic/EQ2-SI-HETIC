@@ -5,14 +5,85 @@
 
 }
 
+div.test {
+  width: 960px;
+  background-color: green;
+  height: 20px;
+  margin: auto;
+}
+/*header début*/
+*{
+  font-family: "Della Respira","Quicksand",Helvetica,Arial,sans-serif;
+}
+/*top header*/
+img.banniere {
+  width: 374px;
+  display: block;
+  margin: 0 auto;
+}
+a.accueil {
+  width: 70%;
+}
+li.accueil{
+  width: 90px;
+}
+img.house {
+  width: 23px;
+}
+
+ul.favIcon {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 32px;
+  right: 19%;
+}
+
+ul.favIcon li{
+  margin-right: 20%;
+}
+
+img.buste{
+  width: 22px;
+}
+
+img.coeur {
+  width: 30px;
+  margin-top: 5px;
+}
+
+img.pannier {
+  width: 25px;
+}
+
+img.loupe{
+  width: 23px;
+  position: absolute;
+  right: 30%;
+  top: 100px;
+}
+
+#recherche {
+  border-radius: 20px;
+  border: white;
+  padding-left: 50px;
+  position: absolute;
+  right: 17%;
+  top: 99px;
+}
+/* top header*/
+
 /*nav*/
 nav.menu {
-  background: #8e44ad;
+  background: #DE8496;
+  height: 50px;
 }
 
 nav.menu ul{
   display: flex;
   justify-content: flex-start;
+  margin-left: 13%;
 }
 
 
@@ -24,8 +95,7 @@ nav.menu ul li {
 nav.menu ul li a {
   text-decoration: none;
   color: white;
-  background: #8e44ad;
-  text-transform: uppercase;
+  background: #DE8496;
   padding: 10px 20px;
   margin-right: 2px;
   display: block;
@@ -37,10 +107,11 @@ nav.menu ul li:after {
   position: absolute;
   right: -1px;
   top: 10px;
+  color: white;
 }
 
 nav.menu ul li a:hover {
-  color: #8e44ad;
+  color: #DE8496;
   background: white;
 }
 
@@ -51,3 +122,4 @@ nav.menu ul li:last-child:after{
   font-size: 24px;
 }
 /*nav fin */
+/* header fin*/
