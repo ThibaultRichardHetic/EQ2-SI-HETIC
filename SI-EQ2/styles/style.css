@@ -5,12 +5,7 @@
 
 }
 
-div.test {
-  width: 960px;
-  background-color: green;
-  height: 20px;
-  margin: auto;
-}
+
 /*header début*/
 *{
   font-family: "Della Respira","Quicksand",Helvetica,Arial,sans-serif;
@@ -22,10 +17,10 @@ img.banniere {
   margin: 0 auto;
 }
 a.accueil {
-  width: 70%;
+  width: 95%;
 }
 li.accueil{
-  width: 90px;
+  width: 60px;
 }
 img.house {
   width: 23px;
@@ -61,7 +56,7 @@ img.loupe{
   width: 23px;
   position: absolute;
   right: 30%;
-  top: 100px;
+  top: 102px;
 }
 
 #recherche {
@@ -70,7 +65,7 @@ img.loupe{
   padding-left: 50px;
   position: absolute;
   right: 17%;
-  top: 99px;
+  top: 101px;
 }
 /* top header*/
 
@@ -83,13 +78,15 @@ nav.menu {
 nav.menu ul{
   display: flex;
   justify-content: flex-start;
-  margin-left: 13%;
+  margin-left: 14%;
 }
 
 
 nav.menu ul li {
   list-style: none;
   position: relative;
+  margin-top: 3px;
+  margin-right: 2px;
 }
 
 nav.menu ul li a {
@@ -122,4 +119,16 @@ nav.menu ul li:last-child:after{
   font-size: 24px;
 }
 /*nav fin */
+
+div.sousHeader > img {
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+  height: 840px;
+  width: 100%;
+  z-index: -1;
+    }
 /* header fin*/
