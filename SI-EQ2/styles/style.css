@@ -26,6 +26,10 @@ img.house {
   width: 23px;
 }
 
+div.topHeader {
+  background-color: white;
+}
+
 ul.favIcon {
   list-style: none;
   display: flex;
@@ -75,31 +79,33 @@ nav.menu {
   height: 50px;
 }
 
-nav.menu ul{
+nav.menu ul.flex{
   display: flex;
   justify-content: flex-start;
   margin-left: 14%;
 }
 
-
-nav.menu ul li {
+nav.menu ul {
   list-style: none;
+}
+
+nav.menu ul.flex > li {
   position: relative;
   margin-top: 3px;
   margin-right: 2px;
 }
 
-nav.menu ul li a {
+nav.menu ul.flex li a {
   text-decoration: none;
   color: white;
   background: #DE8496;
   padding: 10px 20px;
   margin-right: 2px;
   display: block;
-  transition: all .2s ease-in;
+  transition: all .3s ease-in;
 }
 
-nav.menu ul li:after {
+nav.menu ul.flex > li:after {
   content: "|";
   position: absolute;
   right: -1px;
@@ -118,17 +124,53 @@ nav.menu ul li:last-child:after{
 .font{
   font-size: 24px;
 }
+nav.menu ul li ul{
+  display: none;
+  padding: 0;
+}
+nav.menu ul li:hover ul{
+  display: block;
+  position: absolute;
+}
+
+nav.menu ul li ul li a {
+  width: 100%;
+}
 /*nav fin */
 
-div.sousHeader > img {
+/* sousHeader */
+div.sousHeader img.fille {
   position: absolute;
-  top: -9999px;
-  bottom: -9999px;
-  left: -9999px;
-  right: -9999px;
+  top: -3px;
   margin: auto;
-  height: 840px;
+  height: 870px;
   width: 100%;
   z-index: -1;
-    }
+}
+
+div.sousHeader {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+div.sousHeader h1 {
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+div.sousHeader > div {
+  width: 340px;
+  margin-left: 18%;
+  margin-top: 140px;
+}
+
+img.france {
+  width: 150px;
+  margin-left: 75%;
+  margin-top: 90px;
+}
+/* fin sousHeader */
+
 /* header fin*/
