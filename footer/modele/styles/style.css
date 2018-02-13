@@ -60,7 +60,7 @@ footer h3{
   height : 25px;
   padding-left : 15px;
   padding-right: 15px;
-  padding-top: 15px;
+  padding-top: 5px;
 }
 
 .footerMidDiv__LeftSection{
@@ -81,6 +81,12 @@ footer h3{
   flex-direction : column;
 }
 
+.footerMidDiv__RightSection__SubDiv a{
+  display : inline-block;
+  margin-left: 15px;
+  margin-right: 1px;
+}
+
 div.footerMidDiv__RightSection__SubDiv input {
 padding: 9px;
 margin-top:5px;
@@ -98,4 +104,12 @@ background-color: #ecf0f1;
   flex-direction : column;
   align-items: center;
   margin-bottom : 15px;
+}
+
+.footerBottomDiv__SubDiv1 p {
+  font-size : 10px;
+}
+
+.footerBottomDiv__SubDiv2 a{
+  font-size : 10px;
 }
