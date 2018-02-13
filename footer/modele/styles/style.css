@@ -1,0 +1,101 @@
+.container {
+  width : 90%;
+  font-family: 'Arial', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*footer*/
+
+footer{
+  background-color : #DE8496;
+  display: flex;
+  flex-direction: column;
+}
+
+footer a{
+  text-decoration : none;
+  color : #F5F5F5;
+  display : block;
+  margin : 3px;
+  margin-right : 40px;
+}
+
+footer p{
+  color : #F5F5F5
+}
+
+footer h3{
+  font-size : 16px;
+  color : #F5F5F5;
+  margin : 3px;
+  padding-bottom : 7px;
+}
+/* top section of the footer*/
+.footerTopDiv{
+  display : flex;
+  justify-content: center;
+}
+
+.footerTopDiv img{
+  width : 350px;
+  height: 90px;
+}
+
+/* middle section of the footer */
+
+.footerMidDiv{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top : 0.3px solid white;
+  border-bottom : 0.3px solid white;
+  margin-right: 35px;
+  margin-left: 35px;
+  padding : 20px 35px 20px 35px;
+}
+
+.footerMidDiv img{
+  width : 25px;
+  height : 25px;
+  padding-left : 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.footerMidDiv__LeftSection{
+  display : flex;
+  flex-direction: row;
+}
+
+.footerMidDiv__LeftSection__LeftPart{
+  margin : 5px;
+}
+
+.footerMidDiv__LeftSection__RightPart{
+  margin : 5px;
+}
+
+.footerMidDiv__RightSection{
+  display : flex;
+  flex-direction : column;
+}
+
+div.footerMidDiv__RightSection__SubDiv input {
+padding: 9px;
+margin-top:5px;
+margin-bottom: 15px;
+border: 1px solid #abadb3;
+border-radius: 15px;
+color: #95a5a6;
+background-color: #ecf0f1;
+}
+
+/* bottom section of the footer */
+
+.footerBottomDiv{
+  display : flex;
+  flex-direction : column;
+  align-items: center;
+  margin-bottom : 15px;
+}
