@@ -234,7 +234,6 @@ footer h3{
 }
 
 .footerMidDiv img{
-  width : 25px;
   height : 25px;
   padding-left : 15px;
   padding-right: 15px;
@@ -267,9 +266,9 @@ footer h3{
 }
 .footerMidDiv__RightSection__SubDiv a{
   display : inline-block;
-  margin-left: 15px;
-  margin-right: 1px;
+  margin-right: 10px;
 }
+
 
 div.footerMidDiv__RightSection__SubDiv input {
 padding: 9px;
@@ -288,7 +287,6 @@ background-color : #DE8496;
 color: white;
 width: 120px;
 margin-left: 20px;
-
 }
 
 /* bottom section of the footer */
