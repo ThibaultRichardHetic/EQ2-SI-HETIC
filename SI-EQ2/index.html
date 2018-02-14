@@ -6,52 +6,60 @@
     <meta name="description" content="description SEO de mon site">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      
+      <footer>
+        <!-- top part of the footer -->
+        <div class="footerTopDiv">
+          <img src="images/logoFooter.png" alt="FooterLogo">
+        </div>
+        <!-- middle part of the footer -->
+        <div class="footerMidDiv">
+          <div class="footerMidDiv__LeftSection">
+            <div class="footerMidDiv__LeftSection__LeftPart">
+              <h3>DOUCE DE PO</h3>
+              <a href="#">Qui sommes-nous ?</a>
+              <a href="#">Témoignages/Avis</a>
+            </div>
+            <div class="footerMidDiv__LeftSection__RightPart">
+              <h3>SERVICE CLIENT</h3>
+              <a href="#" alt="faq">FAQ</a>
+              <a href="#" alt="livraison_retour">Livraison & Retour</a>
+              <a href="#" alt="parrainage">Parrainage</a>
+              <a href="#" alt="contact">Contact</a>
+            </div>
+          </div>
+          <div class="footerMidDiv__RightSection"></div>
+            <div class="footerMidDiv__RightSection__SubDiv">
+              <h3>INSCRIPTION A LA NEWSLETTER</h3>
+              <p>Rester au courant des dernières nouvelles !</p>
+              <form method="post" action="newsletter.php">
+                <input class="first" type="text" placeholder="Entrez votre email" name="email" size="25"/>
+                <input class="seconde" type="submit" value="Envoyer" name="submit"/>
+              </form>
+              <a href="#" alt="facebook"><img src="images/06-faceboo512.png" alt="facebookLogo"></a>
+              <a href="#" alt="instagram"><img src="images/instagram-logo-A8AD378B-seeklogo.com.png" alt="instagramLogo"></a>
+              <a href="#" alt="pinterest"><img src="images/pinterest-logo_318-173.png" alt="pinterestLogo"></a>
+              <p>SERVICE CLIENTS : (+33) 00 00 00 00 00</p>
+              <p>DOUCEDEPO@GMAIL.COM</p>
+            </div>
+        </div>
+        <!-- bottom part of the footer -->
+        <div class="footerBottomDiv">
+          <div class="footerBottomDiv__SubDiv1">
+            <p>© 2016 - 2018 DOUCE DE PO - TOUS DROITS RÉSERVÉS</p>
+          </div>
+          <div class="footerBottomDiv__SubDiv2">
+            <a href="#" alt="cgv">CGV - MENTIONS LEGALES</a>
+          </div>
+        </div>
+      </footer>
+    </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </head>
-  <body>
-      <div class="header">
-        <img src="images\photoBanniere.png">
-      </div>
-        <nav class="menu">
-            <ul>
-              <li><a href="#" title="item1">Accueil</a></li>
-              <li><a href="#" title="item2">Vetements bebe</a></li>
-              <li><a href="#" title="item3">Acessoires</a></li>
-              <li><a href="#" title="item4">Personnalisation</a></li>
-              <li><a href="#" title="item5">Qui Sommes Nous</a></li>
-            </ul>
-          <div class="clearBoth"></div>
-        </nav>
-    <div id="container">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="images\montagne-neige-red.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images\montagne.jpg" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images\2647-montagne-WallFizz.jpg" alt="Third slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
     <script src="scripts/app.js"></script>
   </body>
 </html>
