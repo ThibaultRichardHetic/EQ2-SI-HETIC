@@ -11,6 +11,7 @@ div.clearBoth{
 
 div.container > h2 {
   text-align: center;
+  margin: 40px;
 }
 
 div.container > p {
@@ -38,6 +39,7 @@ div.polleni div.photo{
 div.polleni div.photo p {
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 div.polleni div.textPolleni p{
@@ -71,18 +73,69 @@ div.mesBoutons input.first{
   margin-right: 200px;
 }
 
+div.mesBoutons input.first:hover{
+  color: #DE8496;
+  background-color: white;
+  transition: 0.3s;
+}
+
+
 div.mesBoutons input.second{
   color: #DE8496;
 }
 
+div.mesBoutons input.second:hover{
+  color: white;
+  background-color: #DE8496;
+  transition: 0.3s;
+}
 /*mission*/
 
 div.mission div.missionText p{
   width: 57%;
+  margin-top: 40px;
 }
 
 div.mission img{
   width: 400px;
   float: right;
 
+}
+
+/* ------ */
+
+div.atelier img{
+  width: 100%;
+}
+
+div.atelier > h2{
+  text-align: center;
+  margin: 40px;
+}
+
+div.atelier div h2{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+div.atelier div p{
+  width: 56%;
+}
+
+div.atelier input{
+  float: right;
+  margin-top: 170px;
+  background-color: white;
+  color: #DE8496;
+  border: 2px solid #DE8496;
+  width: 240px;
+  height: 50px;
+  font-size: 1.3rem;
+}
+
+div.atelier input:hover{
+  background-color: #DE8496;
+  color: white;
+  border: 0px;
+  transition: 0.6s;
 }
