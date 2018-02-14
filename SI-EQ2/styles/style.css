@@ -189,7 +189,6 @@ footer a{
   color : #FFF;
   display : block;
   margin : 3px;
-  margin-right : 40px;
   margin-bottom: 10px;
 }
 
@@ -216,8 +215,9 @@ footer h3{
 }
 
 .footerTopDiv img{
-  width : 350px;
-  height: 90px;
+  width : 200px;
+  height: 40px;
+  margin: 20px;
 }
 
 /* middle section of the footer */
@@ -235,9 +235,8 @@ footer h3{
 
 .footerMidDiv img{
   height : 25px;
-  padding-left : 15px;
-  padding-right: 15px;
-  padding-top: 5px;
+  margin-right: 25px;
+  margin-bottom: 10px;
 }
 
 .footerMidDiv p, .footerBottomDiv{
@@ -255,6 +254,7 @@ footer h3{
 
 .footerMidDiv__LeftSection__RightPart{
   margin : 5px;
+  margin-left: 50px;
 }
 
 .footerMidDiv__RightSection{
@@ -263,6 +263,7 @@ footer h3{
 }
 .footerMidDiv__RightSection__SubDiv p{
   font-size: 12px;
+  margin-bottom: 5px;
 }
 .footerMidDiv__RightSection__SubDiv a{
   display : inline-block;
@@ -275,7 +276,7 @@ padding: 9px;
 margin-top:5px;
 margin-bottom: 15px;
 border: 1px solid #FFF;
-border-radius: 10px;
+border-radius: 20px;
 background-color: #FFF;
 font-family: "Della Respira","Quicksand",Helvetica,Arial,sans-serif;
 }
@@ -289,6 +290,11 @@ width: 120px;
 margin-left: 20px;
 }
 
+div.footerMidDiv__RightSection__SubDiv input.seconde:hover{
+  background-color : white;
+  color: #DE8496;
+}
+
 /* bottom section of the footer */
 
 .footerBottomDiv{
@@ -297,4 +303,9 @@ margin-left: 20px;
   align-items: center;
   margin-bottom : 15px;
   font-size: 12px;
+}
+
+.footerBottomDiv p{
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
