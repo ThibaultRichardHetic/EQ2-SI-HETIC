@@ -1,0 +1,15 @@
+.main{
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-slide img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-prev:before, .slick-next:before{
+  color: #DE8496;
+  font-size: 27px;
+}
