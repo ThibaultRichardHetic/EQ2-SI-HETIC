@@ -8,6 +8,68 @@
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
+    <header>
+
+      <div class="topHeader">
+        <img class="banniere" src="images\photoBanniere.png">
+        <ul class="favIcon">
+          <li><a href="#"><img class="buste" src="images/logoSilouhete.png"></a></li>
+          <li><a href="#"><img class="coeur" src="images/logoCoeur.png"></a></li>
+          <li><a href="#"><img class="pannier" src="images/logoPannierRose.png"></a></li>
+        </ul>
+      </div>
+
+      <nav class="menu">
+          <ul class="flex">
+            <li class="accueil"><a class="accueil" href="#" title="item1"><img class="house" src="images/logoHouseBlanc.png"></a></li>
+            <li><a href="#" title="item2">Vêtements bébé</a>
+            <ul>
+              <li><a href="#">Garçon</a></li>
+              <li><a href="#">Fille</a></li>
+              <li><a href="#">Mixte</a></li>
+              <li><a href="#">Collections</a></li>
+            </ul></li>
+            <li><a href="#" title="item3">Acessoires</a>
+              <ul>
+                <li><a href="#">Pelluches</a></li>
+                <li><a href="#">Pour bébé</a></li>
+                <li><a href="#">Pour la maison</a></li>
+              </ul>
+            </li>
+            <li><a href="#" title="item4">Personnalisation</a>
+              <ul>
+                <li><a href="#">Prénom en tissus</a></li>
+                <li><a href="#">Prénom coussin</a></li>
+              </ul>
+            </li>
+            <li><a href="#" title="item5">Qui Sommes Nous ?</a>
+              <ul>
+                <li><a href="#">Nôtre histoire</a></li>
+                <li><a href="#">L'atelier</a></li>
+                <li><a href="#">Nôtre philosophie</a></li>
+              </ul>
+            </li>
+          </ul>
+          <img class="loupe" src="images/logoLoupeBlanc.png" alt="">
+          <form method="post" action="traitement.php">
+            <p>
+              <input type="text" name="recherche" id="recherche" placeholder="Rechercher" size="15" maxlength="100" />
+            </p>
+          </form>
+        <div class="clearBoth"></div>
+      </nav>
+
+      <div class="sousHeader">
+        <img class="fille" src="images/photoPrincipale.png" alt="">
+        <div>
+          <h1>douce de po</h1>
+          <p>Propose des vêtements et des accessoires pour bébé 100% made in France.</br>
+            Des pièces uniques avec les meilleurs matériaux pour vos bout de chou.
+          </p>
+        </div>
+        <img class="france" src="images/imgMadeInFrance.png" alt="">
+      </div>
+    </header>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

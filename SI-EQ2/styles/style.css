@@ -1,0 +1,168 @@
+/*header début*/
+*{
+  font-family: "Della Respira","Quicksand",Helvetica,Arial,sans-serif;
+}
+/*top header*/
+img.banniere {
+  width: 374px;
+  display: block;
+  margin: 0 auto;
+}
+a.accueil {
+  width: 95%;
+}
+li.accueil{
+  width: 60px;
+}
+img.house {
+  width: 23px;
+}
+
+div.topHeader {
+  background-color: white;
+}
+
+ul.favIcon {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 32px;
+  right: 19%;
+}
+
+ul.favIcon li{
+  margin-right: 20%;
+}
+
+img.buste{
+  width: 22px;
+}
+
+img.coeur {
+  width: 30px;
+  margin-top: 5px;
+}
+
+img.pannier {
+  width: 25px;
+}
+
+img.loupe{
+  width: 23px;
+  position: absolute;
+  right: 30%;
+  top: 102px;
+}
+
+#recherche {
+  border-radius: 20px;
+  border: white;
+  padding-left: 50px;
+  position: absolute;
+  right: 17%;
+  top: 101px;
+}
+/* top header*/
+
+/*nav*/
+nav.menu {
+  background: #DE8496;
+  height: 50px;
+}
+
+nav.menu ul.flex{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 14%;
+}
+
+nav.menu ul {
+  list-style: none;
+}
+
+nav.menu ul.flex > li {
+  position: relative;
+  margin-top: 3px;
+  margin-right: 2px;
+}
+
+nav.menu ul.flex li a {
+  text-decoration: none;
+  color: white;
+  background: #DE8496;
+  padding: 10px 20px;
+  margin-right: 2px;
+  display: block;
+  transition: all .3s ease-in;
+}
+
+nav.menu ul.flex > li:after {
+  content: "|";
+  position: absolute;
+  right: -1px;
+  top: 10px;
+  color: white;
+}
+
+nav.menu ul li a:hover {
+  color: #DE8496;
+  background: white;
+}
+
+nav.menu ul li:last-child:after{
+  display: none;
+}
+.font{
+  font-size: 24px;
+}
+nav.menu ul li ul{
+  display: none;
+  padding: 0;
+}
+nav.menu ul li:hover ul{
+  display: block;
+  position: absolute;
+}
+
+nav.menu ul li ul li a {
+  width: 100%;
+}
+/*nav fin */
+
+/* sousHeader */
+div.sousHeader img.fille {
+  position: absolute;
+  top: -3px;
+  margin: auto;
+  height: 870px;
+  width: 100%;
+  z-index: -1;
+}
+
+div.sousHeader {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+div.sousHeader h1 {
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+div.sousHeader > div {
+  width: 340px;
+  margin-left: 18%;
+  margin-top: 140px;
+}
+
+img.france {
+  width: 150px;
+  margin-left: 75%;
+  margin-top: 90px;
+}
+/* fin sousHeader */
+
+/* header fin*/
