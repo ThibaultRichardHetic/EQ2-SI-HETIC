@@ -1,6 +1,6 @@
 .container {
   width : 90%;
-  font-family: 'Arial', sans-serif;
+  font-family: "Della Respira","Quicksand",Helvetica,Arial,sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
@@ -15,19 +15,26 @@ footer{
 
 footer a{
   text-decoration : none;
-  color : #F5F5F5;
+  color : #FFF;
   display : block;
   margin : 3px;
   margin-right : 40px;
+  margin-bottom: 10px;
+}
+
+footer div.footerMidDiv__LeftSection a {
+  opacity: 0.6;
+  font-size: 12px;
+
 }
 
 footer p{
-  color : #F5F5F5
+  color : #FFF
 }
 
 footer h3{
   font-size : 16px;
-  color : #F5F5F5;
+  color : #FFF;
   margin : 3px;
   padding-bottom : 7px;
 }
@@ -63,6 +70,10 @@ footer h3{
   padding-top: 5px;
 }
 
+.footerMidDiv p, .footerBottomDiv{
+  opacity: 0.6;
+}
+
 .footerMidDiv__LeftSection{
   display : flex;
   flex-direction: row;
@@ -80,7 +91,9 @@ footer h3{
   display : flex;
   flex-direction : column;
 }
-
+.footerMidDiv__RightSection__SubDiv p{
+  font-size: 12px;
+}
 .footerMidDiv__RightSection__SubDiv a{
   display : inline-block;
   margin-left: 15px;
@@ -91,10 +104,20 @@ div.footerMidDiv__RightSection__SubDiv input {
 padding: 9px;
 margin-top:5px;
 margin-bottom: 15px;
-border: 1px solid #abadb3;
-border-radius: 15px;
-color: #95a5a6;
-background-color: #ecf0f1;
+border: 1px solid #FFF;
+border-radius: 10px;
+background-color: #FFF;
+font-family: "Della Respira","Quicksand",Helvetica,Arial,sans-serif;
+}
+
+div.footerMidDiv__RightSection__SubDiv input.seconde {
+border-radius: 0px;
+text-transform: uppercase;
+background-color : #DE8496;
+color: white;
+width: 120px;
+margin-left: 20px;
+
 }
 
 /* bottom section of the footer */
@@ -104,12 +127,5 @@ background-color: #ecf0f1;
   flex-direction : column;
   align-items: center;
   margin-bottom : 15px;
-}
-
-.footerBottomDiv__SubDiv1 p {
-  font-size : 10px;
-}
-
-.footerBottomDiv__SubDiv2 a{
-  font-size : 10px;
+  font-size: 12px;
 }
