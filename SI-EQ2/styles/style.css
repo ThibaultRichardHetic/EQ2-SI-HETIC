@@ -1,53 +1,88 @@
-#container{
-  width: 1080px;
-  margin-left: auto;
-  margin-right: auto;
-
+.container {
+  width: 90%;
+}
+*{
+  font-family: "Della Respira","Quicksand",Helvetica,Arial,sans-serif;
 }
 
-/*nav*/
-nav.menu {
-  background: #8e44ad;
+div.clearBoth{
+  clear: both;
 }
 
-nav.menu ul{
-  display: flex;
-  justify-content: flex-start;
+div.container > h2 {
+  text-align: center;
 }
 
-
-nav.menu ul li {
-  list-style: none;
-  position: relative;
+div.container > p {
+  width: 330px;
+  text-align: center;
+  margin: auto;
 }
-
-nav.menu ul li a {
-  text-decoration: none;
-  color: white;
-  background: #8e44ad;
+h2{
+  color: #DE8496;
+  font-size: 1.3rem;
   text-transform: uppercase;
-  padding: 10px 20px;
-  margin-right: 2px;
-  display: block;
-  transition: all .2s ease-in;
 }
 
-nav.menu ul li:after {
-  content: "|";
-  position: absolute;
-  right: -1px;
-  top: 10px;
+div.polleni div img{
+  width: 300px;
 }
 
-nav.menu ul li a:hover {
-  color: #8e44ad;
-  background: white;
+div.polleni{
+  margin-top: 80px;
+}
+div.polleni div.photo{
+  float: left;
+  margin-right: 80px;
+}
+div.polleni div.photo p {
+  text-align: center;
+  margin-top: 10px;
 }
 
-nav.menu ul li:last-child:after{
-  display: none;
+div.polleni div.textPolleni p{
+  margin-top: 30px;
 }
-.font{
-  font-size: 24px;
+
+div.polleni div.textPolleni h2:last-of-type{
+  margin-top: 50px;
 }
-/*nav fin */
+
+div.polleni div.textPolleni p:last-of-type{
+  width: 100%;
+}
+
+
+div.mesBoutons{
+  width: 684px;
+  margin: auto;
+  margin-top: 40px;
+}
+div.mesBoutons input{
+  border-radius: 15px;
+  width: 240px;
+  height: 35px;
+  border: 2px solid #DE8496;
+}
+
+div.mesBoutons input.first{
+  color: white;
+  background-color: #DE8496;
+  margin-right: 200px;
+}
+
+div.mesBoutons input.second{
+  color: #DE8496;
+}
+
+/*mission*/
+
+div.mission div.missionText p{
+  width: 57%;
+}
+
+div.mission img{
+  width: 400px;
+  float: right;
+
+}
