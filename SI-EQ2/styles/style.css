@@ -1,5 +1,6 @@
-.container{
-  width: 90%;
+.container {
+  width : 90%;
+  font-family: "Della Respira","Quicksand",Helvetica,Arial,sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
@@ -172,3 +173,130 @@ img.france {
 /* fin sousHeader */
 
 /* header fin*/
+
+
+
+/*footer*/
+
+footer{
+  background-color : #DE8496;
+  display: flex;
+  flex-direction: column;
+}
+
+footer a{
+  text-decoration : none;
+  color : #FFF;
+  display : block;
+  margin : 3px;
+  margin-right : 40px;
+  margin-bottom: 10px;
+}
+
+footer div.footerMidDiv__LeftSection a {
+  opacity: 0.6;
+  font-size: 12px;
+
+}
+
+footer p{
+  color : #FFF
+}
+
+footer h3{
+  font-size : 16px;
+  color : #FFF;
+  margin : 3px;
+  padding-bottom : 7px;
+}
+/* top section of the footer*/
+.footerTopDiv{
+  display : flex;
+  justify-content: center;
+}
+
+.footerTopDiv img{
+  width : 350px;
+  height: 90px;
+}
+
+/* middle section of the footer */
+
+.footerMidDiv{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top : 0.3px solid white;
+  border-bottom : 0.3px solid white;
+  margin-right: 35px;
+  margin-left: 35px;
+  padding : 20px 35px 20px 35px;
+}
+
+.footerMidDiv img{
+  width : 25px;
+  height : 25px;
+  padding-left : 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+
+.footerMidDiv p, .footerBottomDiv{
+  opacity: 0.6;
+}
+
+.footerMidDiv__LeftSection{
+  display : flex;
+  flex-direction: row;
+}
+
+.footerMidDiv__LeftSection__LeftPart{
+  margin : 5px;
+}
+
+.footerMidDiv__LeftSection__RightPart{
+  margin : 5px;
+}
+
+.footerMidDiv__RightSection{
+  display : flex;
+  flex-direction : column;
+}
+.footerMidDiv__RightSection__SubDiv p{
+  font-size: 12px;
+}
+.footerMidDiv__RightSection__SubDiv a{
+  display : inline-block;
+  margin-left: 15px;
+  margin-right: 1px;
+}
+
+div.footerMidDiv__RightSection__SubDiv input {
+padding: 9px;
+margin-top:5px;
+margin-bottom: 15px;
+border: 1px solid #FFF;
+border-radius: 10px;
+background-color: #FFF;
+font-family: "Della Respira","Quicksand",Helvetica,Arial,sans-serif;
+}
+
+div.footerMidDiv__RightSection__SubDiv input.seconde {
+border-radius: 0px;
+text-transform: uppercase;
+background-color : #DE8496;
+color: white;
+width: 120px;
+margin-left: 20px;
+
+}
+
+/* bottom section of the footer */
+
+.footerBottomDiv{
+  display : flex;
+  flex-direction : column;
+  align-items: center;
+  margin-bottom : 15px;
+  font-size: 12px;
+}
