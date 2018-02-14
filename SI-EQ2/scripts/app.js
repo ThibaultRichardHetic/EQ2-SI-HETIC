@@ -5,6 +5,7 @@ $(document).ready(function(){
   autoplay: true,
   autoplaySpeed:3000 ,
   arrows: true,
+  dots: true,
   slidesToShow: 4,
   slidesToScroll: 1,
   responsive: [
@@ -13,9 +14,7 @@ $(document).ready(function(){
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
-        arrows: true,
-        infinite: true,
-        dots: true
+
       }
     },
     {
