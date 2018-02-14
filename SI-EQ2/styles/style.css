@@ -1,3 +1,9 @@
+.container{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*header début*/
 *{
   font-family: "Della Respira","Quicksand",Helvetica,Arial,sans-serif;
