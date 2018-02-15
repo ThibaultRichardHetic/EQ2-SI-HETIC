@@ -7,9 +7,6 @@
 
 /*HEADER*/
 /*header début*/
-*{
-  font-family: "Della Respira","Quicksand",Helvetica,Arial,sans-serif;
-}
 
 /*top header*/
 img.banniere {
@@ -458,6 +455,7 @@ div.atelier div h2{
 
 div.atelier div p{
   width: 56%;
+  margin-bottom: 150px;
 }
 
 div.atelier input{
