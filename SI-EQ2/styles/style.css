@@ -459,7 +459,9 @@ div.footerMidDiv__RightSection__SubDiv input.seconde:hover{
 }
 
 div.sousHeader div span{
-  color: #000;
+  color: pink;
+  font-family: Arial;
+  font-weight: bolder;
 }
 
 /* menu hamburger début */
