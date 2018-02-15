@@ -428,6 +428,7 @@ div.bouton input.first:hover{
   width: 60px;
   margin-left: 17rem;
   margin-top: -60px;
+  cursor:pointer;
 }
 
 .livraison{
@@ -663,6 +664,7 @@ background-color : #DE8496;
 color: white;
 width: 120px;
 margin-left: 20px;
+cursor:pointer;
 }
 
 div.footerMidDiv__RightSection__SubDiv input.seconde:hover{

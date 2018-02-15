@@ -59,6 +59,7 @@ img.loupe , img.loupe2{
   position: absolute;
   right: 15%;
   top: 102px;
+  cursor: pointer;
 }
 
 img.loupe2 {
@@ -425,6 +426,7 @@ border: 1px solid #FFF;
 border-radius: 20px;
 background-color: #FFF;
 font-family: "Della Respira","Quicksand",Helvetica,Arial,sans-serif;
+cursor:pointer;
 }
 
 div.footerMidDiv__RightSection__SubDiv input.seconde {
