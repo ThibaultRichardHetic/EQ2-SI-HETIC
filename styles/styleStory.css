@@ -379,6 +379,11 @@ div.polleni div.textPolleni p{
   margin-top: 30px;
 }
 
+main span{
+  font-family: Arial , sans-serif;
+  color: #DE8496;
+}
+
 div.polleni div.textPolleni h2:last-of-type{
   margin-top: 50px;
 }
