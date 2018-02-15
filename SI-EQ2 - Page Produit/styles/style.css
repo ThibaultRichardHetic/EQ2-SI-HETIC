@@ -78,8 +78,9 @@ div.bouton input.first{
   color: white;
   background-color: #DE8496;
   font-size: 1rem;
-  border-radius: 20px;
   border: none;
+  width: 200px;
+  height: 35px;
 }
 
 div.bouton input.first:hover{
@@ -89,8 +90,6 @@ div.bouton input.first:hover{
   border: 1px solid #DE8496;
   cursor: pointer;
 }
-
-
 
 .heart{
   width: 60px;
@@ -127,9 +126,7 @@ div.bordure{
   font-size: 0.9rem;
   margin-right: 0rem;
   margin-top: 1rem;
-
 }
-
 
 /* END MAIN */
 
@@ -147,12 +144,9 @@ div.bordure{
 
 .produit-interessé{
   text-align:center;
-  background-color:pink;
-  
 }
-p{
-  font-size: 1.2rem;
-  font-family: "Della Respira", sans-serif;
+main.mainProduit p{
+  font-size: 1rem;
   color: #707070;
 }
 
@@ -163,8 +157,9 @@ div.bouton-interessé input.bouton-article{
   color: white;
   background-color: #DE8496;
   font-size: 1rem;
-  border-radius: 20px;
   border: none;
+  width: 300px;
+  height: 40px;
 }
 
 div.bouton-interessé input.bouton-article:hover{
@@ -173,4 +168,51 @@ div.bouton-interessé input.bouton-article:hover{
   transition-duration: 0.4s;
   border: 1px solid #DE8496;
   cursor: pointer;
+}
+
+/* ajouté par thibault */
+
+main.mainProduit *{
+  font-family: "Della Respira", sans-serif;
+}
+main.mainProduit h2{
+  font-size: 1.5rem;
+}
+main.mainProduit p{
+  opacity: .8;
+}
+main.mainProduit h3{
+  font-size: 1.3rem;
+}
+
+main.mainProduit .avis , main.mainProduit .question , main.mainProduit .express span{
+  color: #DE8496;
+}
+
+main.mainProduit img.bavoir{
+  margin-left: 80px;
+}
+
+main.mainProduit h3.quantite{
+  float: left;
+}
+
+main.mainProduit .number{
+  width: 40px;
+  margin-left: 20px;
+  margin-top: 15px;
+  padding-left: 10px;
+  font-family: Arial, sans-serif;
+  border: solid 1.2px #707070;
+}
+
+main.mainProduit h2.end-main-title{
+  border-bottom: 1px solid #707070;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+main.mainProduit div.produit-interessé{
+  border-bottom: solid 1px #707070;
+  padding-bottom: 20px;
 }
