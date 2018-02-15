@@ -13,6 +13,81 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body>
+    <!--HEADER-->
+    <header>
+      <div class="topHeader">
+        <img class="banniere" src="../images\photoBanniere.png">
+        <ul class="favIcon">
+          <li><a href="#" title="Mon Compte"><img class="buste" src="../images/logoSilouhete.png" alt="Mon compte"></a></li>
+          <li><a href="#" title="Mes Favoris"><img class="coeur" src="../images/logoCoeur.png" alt="Mes favoris"></a></li>
+          <li><a href="#" title="Mon Pannier"><img class="pannier" src="../images/logoPannierRose.png" alt="Mon pannier"></a></li>
+        </ul>
+      </div>
+
+      <div id="hamburger">
+        <div id="hamburger-content">
+          <nav class="menu">
+            <ul class="flex">
+              <li class="accueil"><a class="accueil" title="accueil" href="#"><img class="house" src="../images/logoHouseBlanc.png" title="Accueil" alt="Accueil"></a></li>
+              <li><a href="blog/product.html" title="Vêtements bébé">Vêtements bébé</a>
+              <ul>
+                <li><a href="#" title="Garçon">Garçon</a></li>
+                <li><a href="#"title="Fille">Fille</a></li>
+                <li><a href="#" title="Mixte">Mixte</a></li>
+                <li><a href="#" title="Collections">Collections</a></li>
+              </ul></li>
+              <li><a href="#" title="Accessoires">Accessoires</a>
+                <ul>
+                  <li><a href="#" title="Peluches">Peluches</a></li>
+                  <li><a href="#" title="Pour bébé">Pour bébé</a></li>
+                  <li><a href="#" title="Pour la maison">Pour la maison</a></li>
+                </ul>
+              </li>
+              <li><a href="#" title="Personnalisation">Personnalisation</a>
+                <ul>
+                  <li><a href="#" title="Prénom en tissu">Prénom en tissu</a></li>
+                  <li><a href="#" title="Prénom coussin">Prénom coussin</a></li>
+                </ul>
+              </li>
+              <li><a href="blog/story.html" title="Qui Sommes Nous ?">Qui Sommes Nous ?</a>
+                <ul>
+                  <li><a href="#" title="Notre histoire">Notre histoire</a></li>
+                  <li><a href="#" title="L'atelier">L'atelier</a></li>
+                  <li><a href="#" title="Notre philosophie">Notre philosophie</a></li>
+                </ul>
+              </li>
+            </ul>
+              <img class="loupe" src="../images/logoLoupeBlanc.png" alt="Recherche">
+              <img class="loupe2" src="../images/loupe2.png" alt="Recherche">
+              <form method="post" action="traitement.php">
+                <p>
+                  <input type="text" name="recherche" id="recherche" placeholder="Rechercher" size="15" maxlength="100" />
+                </p>
+              </form>
+            <div class="clearBoth"></div>
+          </nav>
+
+        </div>
+        <button id="hamburger-button">&#9776;</button>
+        <div id="hamburger-sidebar">
+          <div id="hamburger-sidebar-header"></div>
+          <div id="hamburger-sidebar-body"></div>
+        </div>
+        <div id="hamburger-overlay"></div>
+      </div>
+
+      <div class="sousHeader">
+        <img class="fille" src="../images/photoPrincipale.png" alt="Bébé Fille">
+        <div>
+          <h1>douce de po</h1>
+          <p>Propose des vêtements et des accessoires pour bébé <span>100% made in France.</span></br>
+            Des pièces uniques avec les meilleurs matériaux pour vos bout de chou.
+          </p>
+        </div>
+        <img class="france" src="../images/imgMadeInFrance.png" alt="Made in France">
+      </div>
+    </header>
+    <!--FIN HEADER-->
     <main>
       <div class="container">
 
