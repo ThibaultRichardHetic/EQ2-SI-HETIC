@@ -1,0 +1,176 @@
+/* Colonnes de gauche */
+.bavoir{
+  max-width: 70%;
+  margin-top: 5rem;
+}
+
+.carrerose{
+	width:70%;
+	height:8px;
+	background:#DE8496;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carrerose2{
+	width:70%;
+	height:08px;
+	background:#DE8496;
+  margin-top: 4.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.express{
+  color: #707070;
+  font-size: 1rem;
+  text-align: center;
+  margin-top:-60px;
+}
+
+.avis{
+  color: #DE8496;
+  font-size: 1rem;
+  margin-top: 50px;
+  margin-left: 15%;
+}
+
+.question{
+  color: #DE8496;
+  font-size: 1rem;
+  margin-left:15%;
+
+}
+
+.leftarrows {
+  max-width:5%;
+}
+
+.rightarrows {
+  max-width:5%;
+}
+
+/* Colonnes de droite */
+
+.titleBavoir{
+  color: #707070;
+  font-size: 2.4rem;
+  margin-top: 5rem;
+}
+
+.paragraph{
+  color: #707070;
+  font-size: 0.9rem;
+  margin-right: 5rem;
+}
+
+.quantite{
+  color: #707070;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+div.bouton{
+  margin-top: 20px;
+}
+div.bouton input.first{
+  color: white;
+  background-color: #DE8496;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: none;
+}
+
+div.bouton input.first:hover{
+  color: #DE8496;
+  background-color: white;
+  transition-duration: 0.4s;
+  border: 1px solid #DE8496;
+  cursor: pointer;
+}
+
+
+
+.heart{
+  width: 60px;
+  margin-left: 17rem;
+  margin-top: -60px;
+}
+
+.livraison{
+  color: #707070;
+  font-size: 0.90rem;
+  position:absolute;
+}
+
+div.bordure{
+  margin: 100px auto;
+  width: 60%;
+  height: 1px;
+  background-color: #707070;
+  border: none;
+  margin-top: 2.9rem;
+  margin-left:0rem;
+  clear: both;
+}
+
+.caracteristiques{
+  color: #707070;
+  font-size: 1.5rem;
+  margin-top: -5rem;
+  position:absolute;
+}
+
+.paragraph2{
+  color: #707070;
+  font-size: 0.9rem;
+  margin-right: 0rem;
+  margin-top: 1rem;
+
+}
+
+
+/* END MAIN */
+
+.end-main-title{
+  text-align: center;
+  color: #707070;
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+
+.trait-noir{
+  height: 1px;
+  background-color: #707070;
+}
+
+.produit-interessé{
+  text-align:center;
+  background-color:pink;
+  
+}
+p{
+  font-size: 1.2rem;
+  font-family: "Della Respira", sans-serif;
+  color: #707070;
+}
+
+div.bouton-interessé{
+  margin-top: 20px;
+}
+div.bouton-interessé input.bouton-article{
+  color: white;
+  background-color: #DE8496;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: none;
+}
+
+div.bouton-interessé input.bouton-article:hover{
+  color: #DE8496;
+  background-color: white;
+  transition-duration: 0.4s;
+  border: 1px solid #DE8496;
+  cursor: pointer;
+}
