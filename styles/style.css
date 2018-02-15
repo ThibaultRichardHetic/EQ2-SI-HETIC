@@ -288,7 +288,7 @@ div.nosCollections h2{
 }
 
 /* début le saviez vous */
-div.saviez div.saviezIcon input , div.thumbnail input{
+div.saviez div.saviezIcon input{
   background-color: #DE8496;
   border-radius: 40px;
   width: 50px;
@@ -299,11 +299,6 @@ div.saviez div.saviezIcon input , div.thumbnail input{
   font-size: 1.5rem;
   float: left;
   cursor: pointer;
-}
-div.thumbnail input{
-  width: 84px;
-  position: absolute;
-  margin-left: 250px;
 }
 
 div.saviez div.saviezText h2{
@@ -408,7 +403,7 @@ footer h3{
   flex-direction : column;
   padding-left:225px;
   padding-top:20px;
-  padding-bottom: 20px;
+  padding-bottom: 20px
   background-color: #DE8496;
 }
 .footerMidDiv__RightSection__SubDiv p{
