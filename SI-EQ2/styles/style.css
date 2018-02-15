@@ -179,6 +179,9 @@ img.france {
 
 /* header fin*/
 
+h2{
+  font-size: 1.3rem;
+}
 
 /* MAIN*/
 .main{
@@ -186,10 +189,11 @@ img.france {
   margin-left: auto;
   margin-right: auto;
 }
-.nosCollections{
+.row{
+  margin: 0;
+}
+div.nosCollections h2{
   color: #DE8496;
-  font-family: 'Della Respira', serif;
-  font-size:1.3rem;
   text-transform: uppercase;
   text-align: center;
   margin-bottom:50px;
@@ -198,8 +202,6 @@ img.france {
 
 .titre-paragraphe{
   color: #DE8496;
-  font-family: 'Della Respira', serif;
-  font-size:1.3rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -259,8 +261,41 @@ img.france {
 .slick-prev{
   z-index: 88888;
 }
+/* début le saviez vous */
+div.saviez div.saviezIcon input{
+  background-color: #DE8496;
+  border-radius: 40px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  color: white;
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: 1.5rem;
+  float: left;
+}
 
+div.saviez div.saviezText h2{
+  color: #DE8496;
+  font-size: 1.3rem;
+}
 
+div.saviez div.saviezText{
+  width: 400px;
+  margin-left: 70px;
+}
+div.saviez div.saviezText span{
+  font-family: "Arial Black", Arial, sans-serif;
+  font-style: bold;
+  color: #DE8496;
+}
+
+div.saviez{
+  width: 470px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+/* fin le saviez vous */
 
 /*footer*/
 
@@ -394,6 +429,10 @@ div.footerMidDiv__RightSection__SubDiv input.seconde:hover{
 .footerBottomDiv p{
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+div.sousHeader div span{
+  color: #000;
 }
 
 /* menu hamburger début */
