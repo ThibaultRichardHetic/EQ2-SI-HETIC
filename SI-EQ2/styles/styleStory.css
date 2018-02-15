@@ -82,6 +82,7 @@ div.mesBoutons input.first:hover{
 
 div.mesBoutons input.second{
   color: #DE8496;
+  background-color: white;
 }
 
 div.mesBoutons input.second:hover{
