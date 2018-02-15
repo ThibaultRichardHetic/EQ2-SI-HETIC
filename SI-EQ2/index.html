@@ -2,8 +2,9 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <title>Blog SEO</title>
-    <meta name="description" content="description SEO de mon site">
+    <title>Douce De Po</title>
+    <meta name="description" content="Propose des vêtements et des accessoires pour bébé 100% made in France.
+      Des pièces uniques avec les meilleurs matériaux pour vos bout de chou.">
     <link href="https://fonts.googleapis.com/css?family=Della+Respira" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.css"/>
@@ -11,103 +12,133 @@
     <link rel="stylesheet" href="styles/style.css"/>
   </head>
   <body>
+    <!--HEADER-->
     <header>
       <div class="topHeader">
         <img class="banniere" src="images\photoBanniere.png">
         <ul class="favIcon">
-          <li><a href="#"><img class="buste" src="images/logoSilouhete.png"></a></li>
-          <li><a href="#"><img class="coeur" src="images/logoCoeur.png"></a></li>
-          <li><a href="#"><img class="pannier" src="images/logoPannierRose.png"></a></li>
+          <li><a href="#" title="Mon Compte"><img class="buste" src="images/logoSilouhete.png" alt="Mon compte"></a></li>
+          <li><a href="#" title="Mes Favoris"><img class="coeur" src="images/logoCoeur.png" alt="Mes favoris"></a></li>
+          <li><a href="#" title="Mon Pannier"><img class="pannier" src="images/logoPannierRose.png" alt="Mon pannier"></a></li>
         </ul>
       </div>
 
-      <nav class="menu">
-          <ul class="flex">
-            <li class="accueil"><a class="accueil" href="#" title="item1"><img class="house" src="images/logoHouseBlanc.png"></a></li>
-            <li><a href="#" title="item2">Vêtements bébé</a>
-            <ul>
-              <li><a href="#">Garçon</a></li>
-              <li><a href="#">Fille</a></li>
-              <li><a href="#">Mixte</a></li>
-              <li><a href="#">Collections</a></li>
-            </ul></li>
-            <li><a href="#" title="item3">Acessoires</a>
+      <div id="hamburger">
+        <div id="hamburger-content">
+          <nav class="menu">
+            <ul class="flex">
+              <li class="accueil"><a class="accueil" title="accueil" href="#"><img class="house" src="images/logoHouseBlanc.png" title="Accueil" alt="Accueil"></a></li>
+              <li><a href="#" title="Vêtements bébé">Vêtements bébé</a>
               <ul>
-                <li><a href="#">Pelluches</a></li>
-                <li><a href="#">Pour bébé</a></li>
-                <li><a href="#">Pour la maison</a></li>
-              </ul>
-            </li>
-            <li><a href="#" title="item4">Personnalisation</a>
-              <ul>
-                <li><a href="#">Prénom en tissus</a></li>
-                <li><a href="#">Prénom coussin</a></li>
-              </ul>
-            </li>
-            <li><a href="#" title="item5">Qui Sommes Nous ?</a>
-              <ul>
-                <li><a href="#">Nôtre histoire</a></li>
-                <li><a href="#">L'atelier</a></li>
-                <li><a href="#">Nôtre philosophie</a></li>
-              </ul>
-            </li>
-          </ul>
-          <img class="loupe" src="images/logoLoupeBlanc.png" alt="">
-          <form method="post" action="traitement.php">
-            <p>
-              <input type="text" name="recherche" id="recherche" placeholder="Rechercher" size="15" maxlength="100" />
-            </p>
-          </form>
-        <div class="clearBoth"></div>
-      </nav>
+                <li><a href="#" title="Garçon">Garçon</a></li>
+                <li><a href="#"title="Fille">Fille</a></li>
+                <li><a href="#" title="Mixte">Mixte</a></li>
+                <li><a href="#" title="Collections">Collections</a></li>
+              </ul></li>
+              <li><a href="#" title="Accessoires">Accessoires</a>
+                <ul>
+                  <li><a href="#" title="Peluches">Peluches</a></li>
+                  <li><a href="#" title="Pour bébé">Pour bébé</a></li>
+                  <li><a href="#" title="Pour la maison">Pour la maison</a></li>
+                </ul>
+              </li>
+              <li><a href="#" title="Personnalisation">Personnalisation</a>
+                <ul>
+                  <li><a href="#" title="Prénom en tissu">Prénom en tissu</a></li>
+                  <li><a href="#" title="Prénom coussin">Prénom coussin</a></li>
+                </ul>
+              </li>
+              <li><a href="#" title="Qui Sommes Nous ?">Qui Sommes Nous ?</a>
+                <ul>
+                  <li><a href="#" title="Notre histoire">Notre histoire</a></li>
+                  <li><a href="#" title="L'atelier">L'atelier</a></li>
+                  <li><a href="#" title="Notre philosophie">Notre philosophie</a></li>
+                </ul>
+              </li>
+            </ul>
+              <img class="loupe" src="images/logoLoupeBlanc.png" alt="Recherche">
+              <img class="loupe2" src="images/loupe2.png" alt="Recherche">
+              <form method="post" action="traitement.php">
+                <p>
+                  <input type="text" name="recherche" id="recherche" placeholder="Rechercher" size="15" maxlength="100" />
+                </p>
+              </form>
+            <div class="clearBoth"></div>
+          </nav>
+
+        </div>
+        <button id="hamburger-button">&#9776;</button>
+        <div id="hamburger-sidebar">
+          <div id="hamburger-sidebar-header"></div>
+          <div id="hamburger-sidebar-body"></div>
+        </div>
+        <div id="hamburger-overlay"></div>
+      </div>
 
       <div class="sousHeader">
-        <img class="fille" src="images/photoPrincipale.png" alt="">
+        <img class="fille" src="images/photoPrincipale.png" alt="Bébé Fille">
         <div>
           <h1>douce de po</h1>
-          <p>Propose des vêtements et des accessoires pour bébé 100% made in France.</br>
+          <p>Propose des vêtements et des accessoires pour bébé <span>100% made in France.</span></br>
             Des pièces uniques avec les meilleurs matériaux pour vos bout de chou.
           </p>
         </div>
-        <img class="france" src="images/imgMadeInFrance.png" alt="">
+        <img class="france" src="images/imgMadeInFrance.png" alt="Made in France">
       </div>
     </header>
-
+<!--MAIN-->
     <div class="row">
         <div class="main">
           <div class="nosCollections">
-            Nos collections
+            <h2>Nos collections</h2>
           </div>
           <div class="slickSlider">
-            <div><img src="images\bavoirBleu.jpg" alt="bavoirBéBé"></div>
-            <div><img src="images\bavoirMarron.jpg" alt="bavoirBéBé"></div>
-            <div><img src="images\bavoirRose.jpg" alt="bavoirBéBé"></div>
-            <div><img src="images\bavoirBleu.jpg" alt="bavoirBéBé"></div>
-            <div><img src="images\bavoirBleu.jpg" alt="bavoirBéBé"></div>
+            <div><img src="images\bavoirBleu.jpg" alt="bavoirBébé"> <span>Mille Etoiles</span></div>
+            <div><img src="images\Loup-indien2-300x300 2.jpg" alt="bavoirBébé"><span>Aux Pays des Rêves</span></div>
+            <div><img src="images\bavoirMarron.jpg" alt="bavoirBébé"><span>Ballade en forêt</span></div>
+            <div><img src="images\bavoirRose.jpg" alt="bavoirBébé"><span>Douce Brise</span></div>
+            <div><img src="images\lapin-300x300.jpg" alt="Peluche Lapin"><span>Petit Moussaillon</span></div>
+            <div><img src="images\bavoir-1-300x300 12.jpg" alt="bavoirBébé"><span>Bouton d'Or</span></div>
           </div>
           </div>
           <div class="mid-main col-md-6">
-            <div class="titre-paragraphe">Les promos a ne pas louper</div>
+            <div class="titre-paragraphe">
+              <h2>Les promos a ne pas louper</h2>
+            </div>
             <div class="thumbnail">
-              <img class="soldes" src="images\bavoir1-300x300 3.jpg" alt="bavoireBébé">
+              <img class="soldes" src="http://img110.xooimage.com/files/d/2/3/bavoir-53f56da.jpg" alt="bavoireBébé">
               <div>
-                <p>Bavoire Bébé rouge pois a motif</p>
+                <p>Bavoire Bébé Bleu a motif étoile</p>
                 <p>Article soldé a -40%</p>
               </div>
             </div>
           </div>
           <div class="mid-main col-md-6">
-            <p class="titre-paragraphe">Les Incontournables</p>
+            <h2 class="titre-paragraphe">Les Incontournables</h2>
             <div class="slickSliderIncoutournable">
               <div><img src="images\bavoir1-300x300 3.jpg" alt="bavoireBébé"></div>
-              <div><img src="images\bavoir1-300x300 3.jpg" alt="bavoireBébé"></div>
-              <div><img src="images\bavoir1-300x300 3.jpg" alt="bavoireBébé"></div>
-              <div><img src="images\bavoir1-300x300 3.jpg" alt="bavoireBébé"></div>
+              <div><img src="images\bavoir21-300x300.jpg" alt="bavoireBébé"></div>
+              <div><img src="images\carnetDeSante.jpg" alt="bavoireBébé"></div>
+              <div><img src="images\bavoir-1-300x300 14.jpg" alt="bavoireBébé"></div>
             </div>
           </div>
         </div>
+      </div>
 
+      <div class="saviez">
+        <div class="saviezIcon">
+          <input type="button" name="le saviez-vous?" value="?">
+        </div>
+        <div class="saviezText">
+          <h2>Le Saviez-Vous ?</h2>
+          <p>
+            LE PARRAINAGE  :</br>
+            Agrandissez la communauté DouceDePo en invitant un ami à rejoindre le site et bénéficiez de frais de ports <span>gratuits</span> sur votre prochaine commande !
+          </p>
+        </div>
+      </div>
 
+<!--FOOTER-->
 
     <footer>
       <div class="container">
@@ -156,6 +187,8 @@
         </div>
       </div>
     </footer>
+
+<!-- scripts -->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
