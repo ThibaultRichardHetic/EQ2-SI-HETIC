@@ -477,14 +477,8 @@ div.atelier input:hover{
   transition: 0.6s;
 }
 
-/*FOOTER*/
+/*footer*/
 
-
-footer{
-  background-color : #DE8496;
-  display: flex;
-  flex-direction: column;
-}
 
 footer a{
   text-decoration : none;
@@ -514,6 +508,8 @@ footer h3{
 .footerTopDiv{
   display : flex;
   justify-content: center;
+  background-color: #DE8496;
+  border-bottom: 1px solid white;
 }
 
 .footerTopDiv img{
@@ -535,19 +531,15 @@ footer h3{
   padding : 20px 35px 20px 35px;
 }
 
-.footerMidDiv img{
-  height : 25px;
-  margin-right: 25px;
-  margin-bottom: 10px;
-}
 
-.footerMidDiv p, .footerBottomDiv{
-  opacity: 0.6;
-}
+
+
 
 .footerMidDiv__LeftSection{
   display : flex;
-  flex-direction: row;
+  padding-left:225px;
+  padding-top:20px;
+  background-color: #DE8496;
 }
 
 .footerMidDiv__LeftSection__LeftPart{
@@ -562,6 +554,10 @@ footer h3{
 .footerMidDiv__RightSection{
   display : flex;
   flex-direction : column;
+  padding-left:225px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  background-color: #DE8496;
 }
 .footerMidDiv__RightSection__SubDiv p{
   font-size: 12px;
@@ -604,8 +600,10 @@ div.footerMidDiv__RightSection__SubDiv input.seconde:hover{
   display : flex;
   flex-direction : column;
   align-items: center;
-  margin-bottom : 15px;
+  padding-bottom : 15px;
   font-size: 12px;
+  border-top: 1px solid white;
+  background-color: #DE8496;
 }
 
 .footerBottomDiv p{
