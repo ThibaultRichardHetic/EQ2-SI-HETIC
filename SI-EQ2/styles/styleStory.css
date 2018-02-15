@@ -401,6 +401,7 @@ div.mesBoutons input{
   width: 240px;
   height: 35px;
   border: 2px solid #DE8496;
+  cursor: pointer;
 }
 
 div.mesBoutons input.first{
@@ -468,6 +469,7 @@ div.atelier input{
   width: 240px;
   height: 50px;
   font-size: 1.3rem;
+  cursor: pointer;
 }
 
 div.atelier input:hover{
@@ -478,7 +480,7 @@ div.atelier input:hover{
 }
 
 /*FOOTER*/
-/*footer*/
+
 
 footer{
   background-color : #DE8496;
@@ -581,6 +583,7 @@ border: 1px solid #FFF;
 border-radius: 20px;
 background-color: #FFF;
 font-family: "Della Respira","Quicksand",Helvetica,Arial,sans-serif;
+cursor:pointer;
 }
 
 div.footerMidDiv__RightSection__SubDiv input.seconde {
