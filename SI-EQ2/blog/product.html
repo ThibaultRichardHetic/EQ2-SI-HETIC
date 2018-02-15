@@ -11,6 +11,79 @@
     <link rel="stylesheet" href="../styles/styleProduct.css"/>
   </head>
   <body>
+    <header>
+      <div class="topHeader">
+        <img class="banniere" src="../images\photoBanniere.png">
+        <ul class="favIcon">
+          <li><a href="#" title="Mon Compte"><img class="buste" src="../images/logoSilouhete.png" alt="Mon compte"></a></li>
+          <li><a href="#" title="Mes Favoris"><img class="coeur" src="../images/logoCoeur.png" alt="Mes favoris"></a></li>
+          <li><a href="#" title="Mon Pannier"><img class="pannier" src="../images/logoPannierRose.png" alt="Mon pannier"></a></li>
+        </ul>
+      </div>
+
+      <div id="hamburger">
+        <div id="hamburger-content">
+          <nav class="menu">
+            <ul class="flex">
+              <li class="accueil"><a class="accueil" title="accueil" href="#"><img class="house" src="../images/logoHouseBlanc.png" title="Accueil" alt="Accueil"></a></li>
+              <li><a href="blog/product.html" title="Vêtements bébé">Vêtements bébé</a>
+              <ul>
+                <li><a href="#" title="Garçon">Garçon</a></li>
+                <li><a href="#"title="Fille">Fille</a></li>
+                <li><a href="#" title="Mixte">Mixte</a></li>
+                <li><a href="#" title="Collections">Collections</a></li>
+              </ul></li>
+              <li><a href="#" title="Accessoires">Accessoires</a>
+                <ul>
+                  <li><a href="#" title="Peluches">Peluches</a></li>
+                  <li><a href="#" title="Pour bébé">Pour bébé</a></li>
+                  <li><a href="#" title="Pour la maison">Pour la maison</a></li>
+                </ul>
+              </li>
+              <li><a href="#" title="Personnalisation">Personnalisation</a>
+                <ul>
+                  <li><a href="#" title="Prénom en tissu">Prénom en tissu</a></li>
+                  <li><a href="#" title="Prénom coussin">Prénom coussin</a></li>
+                </ul>
+              </li>
+              <li><a href="../blog/story.html" title="Qui Sommes Nous ?">Qui Sommes Nous ?</a>
+                <ul>
+                  <li><a href="#" title="Notre histoire">Notre histoire</a></li>
+                  <li><a href="#" title="L'atelier">L'atelier</a></li>
+                  <li><a href="#" title="Notre philosophie">Notre philosophie</a></li>
+                </ul>
+              </li>
+            </ul>
+              <img class="loupe" src="../images/logoLoupeBlanc.png" alt="Recherche">
+              <img class="loupe2" src="../images/loupe2.png" alt="Recherche">
+              <form method="post" action="traitement.php">
+                <p>
+                  <input type="text" name="recherche" id="recherche" placeholder="Rechercher" size="15" maxlength="100" />
+                </p>
+              </form>
+            <div class="clearBoth"></div>
+          </nav>
+
+        </div>
+        <button id="hamburger-button">&#9776;</button>
+        <div id="hamburger-sidebar">
+          <div id="hamburger-sidebar-header"></div>
+          <div id="hamburger-sidebar-body"></div>
+        </div>
+        <div id="hamburger-overlay"></div>
+      </div>
+
+      <div class="sousHeader">
+        <img class="fille" src="../images/photoPrincipale.png" alt="Bébé Fille">
+        <div>
+          <h1>douce de po</h1>
+          <p>Propose des vêtements et des accessoires pour bébé <span>100% made in France.</span></br>
+            Des pièces uniques avec les meilleurs matériaux pour vos bouts de chou.
+          </p>
+        </div>
+        <img class="france" src="../images/imgMadeInFrance.png" alt="Made in France">
+      </div>
+    </header>
     <main class="mainProduit">
       <div class="container">
         <div class="row">
@@ -74,6 +147,53 @@
         </div>
       </div>
     </main>
+    <footer>
+      <div class="container">
+        <!-- top part of the footer -->
+        <div class="footerTopDiv">
+          <img src="../images/logoMarqueBlanc2.png" alt="FooterLogo">
+        </div>
+        <!-- middle part of the footer -->
+        <div class="footerMidDiv">
+          <div class="footerMidDiv__LeftSection">
+            <div class="footerMidDiv__LeftSection__LeftPart">
+              <h3>DOUCE DE PO</h3>
+              <a href="#">Qui sommes-nous ?</a>
+              <a href="#">Témoignages/Avis</a>
+            </div>
+            <div class="footerMidDiv__LeftSection__RightPart">
+              <h3>SERVICE CLIENT</h3>
+              <a href="#" alt="faq">FAQ</a>
+              <a href="#" alt="livraison_retour">Livraison & Retour</a>
+              <a href="#" alt="parrainage">Parrainage</a>
+              <a href="#" alt="contact">Contact</a>
+            </div>
+          </div>
+          <div class="footerMidDiv__RightSection"></div>
+            <div class="footerMidDiv__RightSection__SubDiv">
+              <h3>INSCRIPTION A LA NEWSLETTER</h3>
+              <p>Rester au courant des dernières nouvelles !</p>
+              <form method="post" action="newsletter.php">
+                <input class="first" type="text" placeholder="Entrez votre email" name="email" size="25"/>
+                <input class="seconde" type="submit" value="Envoyer" name="submit"/>
+              </form>
+              <div class="favReseau">
+                <a href="#" alt="facebook"><img src="../images/logoFacebookBlanc.png" alt="facebookLogo"></a>
+                <a href="#" alt="instagram"><img src="../images/logoInstagramBlanc.png" alt="instagramLogo"></a>
+                <a href="#" alt="pinterest"><img src="../images/logoPinterestBlanc.png" alt="pinterestLogo"></a>
+              </div>
+
+              <p>SERVICE CLIENTS : (+33) 00 00 00 00 00</p>
+              <p>DOUCEDEPO@GMAIL.COM</p>
+            </div>
+        </div>
+        <!-- bottom part of the footer -->
+        <div class="footerBottomDiv">
+          <p>© 2016 - 2018 DOUCE DE PO - TOUS DROITS RÉSERVÉS</p>
+          <a href="#" alt="cgv">CGV - MENTIONS LEGALES</a>
+        </div>
+      </div>
+    </footer>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
