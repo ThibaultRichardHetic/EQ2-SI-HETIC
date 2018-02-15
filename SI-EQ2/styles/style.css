@@ -54,11 +54,15 @@ img.pannier {
   width: 25px;
 }
 
-img.loupe{
+img.loupe , img.loupe2{
   width: 23px;
   position: absolute;
   right: 15%;
   top: 102px;
+}
+
+img.loupe2 {
+  display: none;
 }
 
 #recherche {
@@ -131,6 +135,8 @@ nav.menu ul li:last-child:after{
 nav.menu ul li ul{
   display: none;
   padding: 0;
+  width: 200px;
+  margin-top: 3px;
 }
 nav.menu ul li:hover ul{
   display: block;
@@ -525,6 +531,7 @@ div.sousHeader div span{
       display: block;
       padding: 0;
       margin: 0;
+      margin-right: -5px;
     }
 
     nav.menu ul.flex > li:after {
@@ -550,6 +557,39 @@ div.sousHeader div span{
     nav.menu ul li ul li a {
       width: 100%;
     }
+
+    nav.menu ul.flex > li {
+      margin-top: 2px;
+    }
+
+    nav.menu ul li ul {
+      border-left: 2px solid white;
+    }
+
+    div.sousHeader img.fille {
+      top: -3px;
+      height: 750px;
+      width: 100%;
+      margin-top: 40px;
+    }
+
+    div.sousHeader > div {
+    margin-left: 5%;
+    }
+
+    ul.favIcon {
+        top: 105px;
+    }
+
+    img.loupe2{
+      display: block;
+      right: 12%;
+    }
+
+    img.loupe1{
+      display: none;
+    }
+
 }
 
 /* menu hamburger fin */
