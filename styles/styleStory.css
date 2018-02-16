@@ -160,6 +160,7 @@ div.sousHeader {
   color: white;
   font-size: 1.1rem;
   font-weight: lighter;
+  height: 320px;
 }
 
 div.sousHeader h1 {
@@ -345,6 +346,7 @@ div.clearBoth{
 div.container > h2 {
   text-align: center;
   margin: 40px;
+  padding-top: 40px;
 }
 
 div.container > p {
@@ -620,4 +622,8 @@ div.sousHeader div span{
   color: pink;
   font-family: Arial;
   font-weight: bolder;
+}
+
+main {
+  background-color: white;
 }
