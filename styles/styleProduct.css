@@ -689,3 +689,13 @@ div.sousHeader div span{
   font-family: Arial;
   font-weight: bolder;
 }
+
+div.favReseau img.fb{
+  max-width: 34px;
+}
+div.favReseau img.insta{
+  max-width: 31px;
+}
+div.favReseau img.pint{
+  max-width: 25px;
+}
