@@ -288,7 +288,7 @@ div.nosCollections h2{
 }
 
 /* début le saviez vous */
-div.saviez div.saviezIcon input{
+div.saviez div.saviezIcon input , div.thumbnail input{
   background-color: #DE8496;
   border-radius: 40px;
   width: 50px;
@@ -299,6 +299,12 @@ div.saviez div.saviezIcon input{
   font-size: 1.5rem;
   float: left;
   cursor: pointer;
+}
+
+div.thumbnail input{
+  width: 100px;
+  position: absolute;
+  margin-left: 220px;
 }
 
 div.saviez div.saviezText h2{
